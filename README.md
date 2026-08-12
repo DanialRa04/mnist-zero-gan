@@ -43,9 +43,3 @@ The notebook will:
 ## Important Results
 
 On the executed notebook saved in this repo, the model learns the rough circular structure of handwritten zeros and shifts more pixel mass toward the center of the image than the border. The final samples are still soft and imperfect, which is expected for a dense CPU-friendly GAN baseline.
-
-## Limitations
-
-- This is not a full-class MNIST generator.
-- The dense architecture is easier to study than a DCGAN, but it produces blurrier samples.
-- GAN losses help with monitoring, but they are not a complete quality metric.
